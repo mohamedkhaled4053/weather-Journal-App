@@ -24,3 +24,16 @@ const PORT = 3000
 const server = app.listen(PORT, ()=>{
     console.log(`running on localhost: ${PORT}`);
 })
+
+// get route
+app.get('/all', (req, res)=>{
+    res.send(projectData)
+    // console.log(projectData);
+
+})
+
+// post route
+app.post('/add', (req,res)=>{
+    projectData = req.body;
+    // console.log(projectData);
+})
