@@ -67,7 +67,15 @@ input,textarea{
     font-size: 1.3em;
 }
 
-
+#entryHolder{
+    background: rgba(0,0,0,0.7);
+    color: white;
+    height: 0;
+    width: 0;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    
+}
 
 /* Reset style for HTML element on active to have no border*/
 input:focus,
